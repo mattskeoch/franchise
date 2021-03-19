@@ -1,0 +1,84 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: var(--space-xl);
+	margin-right: var(--space-xl);
+	margin-bottom: var(--space-xxl);
+
+	@include breakpoint("large") {
+		margin-right: 0rem;
+	}
+}
+
+form {
+	font-family: var(--font-secondary);
+}
+
+form input {
+	--component-padding: 0.8rem;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid var(--clr-gray-400);
+	margin-bottom: var(--space-md);
+	padding: var(--component-padding);
+	background: var(--clr-background-alt);
+}
+
+form input:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px var(--clr-green-400);
+}
+
+input#firstName,
+input#phone {
+	margin-right: var(--space-md);
+}
+
+input::placeholder {
+	color: var(--clr-text);
+}
+
+button {
+	display: inline-block;
+	width: 100%;
+	border: none;
+	padding: 0.9rem 2rem;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, var(--c1, #12a15e), var(--c2, #1fad6b) 51%, var(--c1, #008044))
+		var(--x, 0) / 200%;
+	border-radius: 4px;
+	color: var(--clr-white);
+	font-family: var(--font-secondary);
+	font-size: var(--text-md);
+	font-weight: 500;
+	cursor: pointer;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: all 250ms ease-in-out;
+
+	@include breakpoint("medium") {
+		--text-sm: 1.15rem;
+		font-size: var(--text-sm);
+	}
+
+	@include breakpoint("medium") {
+		--text-sm: 1rem;
+		font-size: var(--text-sm);
+	}
+}
+
+button:hover {
+	--x: 100%;
+}
+
+button:focus {
+	outline: 1px solid #fff;
+	outline-offset: -4px;
+}
+
+button:active {
+	transform: scale(0.99);
+}

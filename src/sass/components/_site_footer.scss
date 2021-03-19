@@ -1,0 +1,27 @@
+footer.site-footer {
+	background: var(--clr-background-alt);
+	padding-top: var(--space-lg);
+	padding-bottom: var(--space-lg);
+	border-top: 1px solid var(--clr-footer-border);
+}
+
+.site-footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	img {
+		width: 120px;
+	}
+
+	p {
+		--text-sm: 1rem;
+		font-size: var(--text-sm);
+
+		@include breakpoint("medium") {
+			--text-sm: 0.8rem;
+			font-size: var(--text-sm);
+			text-align: end;
+		}
+	}
+}

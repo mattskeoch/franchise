@@ -1,9 +1,46 @@
-//colors
-
 :root {
-	--clr-background: #d7e2ff;
+	--logo: url(/images/logo.png) no-repeat;
+
+	--clr-background: hsl(0, 0%, 100%);
+	--clr-background-alt: hsl(210, 20%, 98%);
+	--clr-title: hsl(0, 3%, 24%);
+	--clr-text: hsl(215, 19%, 45%);
+
+	--clr-gradient: linear-gradient(90deg, #12a15e, #1fad6b, #2eb778, #40bf84) 0% 200%;
+	--clr-gradient-grey: linear-gradient(270deg, #12a15e, #1fad6b, #2eb778, #40bf84);
+
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-black: hsl(0, 0%, 0%);
+
+	--clr-green-100: hsl(152, 100%, 8%);
+	--clr-green-200: hsl(152, 100%, 16%);
+	--clr-green-300: hsl(152, 100%, 25%);
+	--clr-green-400: hsl(152, 50%, 50%);
+	--clr-green-500: hsl(152, 50%, 96%);
+
+	--clr-gray-100: hsl(152, 45%, 10%);
+	--clr-gray-200: hsl(152, 25%, 25%);
+	--clr-gray-300: hsl(152, 10%, 40%);
+	--clr-gray-400: hsl(152, 10%, 83%);
+	--clr-gray-500: hsl(152, 10%, 96%);
+
+	--clr-highlight: hsl(147, 100%, 75%);
+	--clr-footer-border: hsl(0, 0%, 92%);
+	--clr-card: hsl(0, 0%, 100%);
 }
 
 [data-theme="dark"] {
-	--clr-background: #3b283d;
+	--logo: url(/images/logo-light.png) no-repeat;
+
+	--clr-background: hsl(210, 24%, 16%);
+	--clr-background-alt: hsl(210, 23%, 18%);
+
+	--clr-title: hsl(152, 10%, 96%);
+	--clr-text: hsl(0, 0%, 69%);
+	--clr-highlight: hsl(152, 80%, 35%);
+	--clr-footer-border: hsl(0, 0%, 27%);
+	--clr-card: #1f2933;
+
+	--clr-gray-500: hsl(0, 0%, 27%);
+	--clr-gray-400: hsl(0, 0%, 27%);
 }

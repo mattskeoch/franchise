@@ -1,13 +1,32 @@
 body {
 	background-color: var(--clr-background);
+	font-size: 100%;
 }
 
 .wrapper {
 	width: 90vw;
-	width: clamp(16rem, 90vw, 70rem);
+	width: clamp(16rem, 90vw, 90rem);
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	position: relative;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+span.highlight {
+	display: inline-block;
+	height: 70px;
+	padding: 0 0.5rem;
+	background: var(--clr-highlight);
+}
+
+@media (max-width: 37.5rem) {
+	.highlight {
+		height: 48px !important;
+	}
 }

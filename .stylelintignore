@@ -1,6 +1,9 @@
 **/node_modules
 _reset.scss
 _typography.scss
+_spacing.scss
+_mixin.scss
+_theme.scss
 public/
 src/css/
 *.md

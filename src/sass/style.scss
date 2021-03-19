@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 //Sass Files
 @import "base/main";
 
@@ -7,6 +10,16 @@
 @import "utilities/spacing";
 @import "utilities/theme";
 @import "utilities/typography";
+@import "utilities/visually-hidden";
 
 //Components
 @import "components/theme-toggle";
+@import "components/site-head";
+@import "components/hero";
+@import "components/form";
+@import "components/features";
+@import "components/testimonials";
+@import "components/slider";
+@import "components/faq";
+@import "components/cta";
+@import "components/site_footer";
