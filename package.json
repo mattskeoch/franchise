@@ -20,7 +20,8 @@
   "author": "Matt Skeoch",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "eleventy-google-fonts": "0.0.5"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^0.8.0",

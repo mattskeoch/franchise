@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="{{ site.siteDesc }}"/>
@@ -12,6 +13,9 @@
 		<title>{{ site.name }}</title>
 		<link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
 		<link rel="icon" href="{{ site.faviconPath }}" type="image/png"/>
+
+		{% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&display=swap' %}
+		{% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap' %}
 	</head>
 
 	<body>

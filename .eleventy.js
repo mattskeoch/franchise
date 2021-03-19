@@ -10,6 +10,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 	eleventyConfig.addLiquidShortcode("image", imageShortcode);
 	eleventyConfig.addJavaScriptFunction("image", imageShortcode);
+	eleventyConfig.addPlugin(eleventyGoogleFonts);
 
 	// Import data files
 	const site = require("./src/_data/site.json");
@@ -23,6 +24,7 @@ module.exports = function (eleventyConfig) {
 	};
 };
 
+const eleventyGoogleFonts = require("eleventy-google-fonts");
 const Image = require("@11ty/eleventy-img");
 
 async function imageShortcode(src, alt, sizes) {
