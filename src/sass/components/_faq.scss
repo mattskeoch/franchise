@@ -10,6 +10,10 @@ section.faq::before {
 	content: url("/images/squares-bg-lg.png");
 	top: 45px;
 	left: 0px;
+
+	@include breakpoint("medium") {
+		opacity: 0.2;
+	}
 }
 
 .faq-container {

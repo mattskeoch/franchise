@@ -10,6 +10,10 @@ section.testimonials::before {
 	content: url("/images/squares-bg-lg.png");
 	top: -190px;
 	right: 10px;
+
+	@include breakpoint("medium") {
+		opacity: 0.2;
+	}
 }
 
 .testimonials-container {

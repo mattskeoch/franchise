@@ -11,7 +11,7 @@
 	display: inline-block;
 	height: 34px;
 	position: relative;
-	width: 60px;
+	width: 30px;
 }
 
 .theme-switch input {
@@ -19,7 +19,7 @@
 }
 
 .theme-slider {
-	background-color: #ccc;
+	// background-color: #ccc;
 	bottom: 0;
 	cursor: pointer;
 	left: 0;
@@ -31,23 +31,24 @@
 
 .theme-slider:before {
 	// background-color: #fff;
-	bottom: 5px;
+	// bottom: 5px;
 	content: "☀️";
-	transform: rotate(180deg);
+	// transform: rotate(180deg);
+	opacity: 0.6;
 	height: 26px;
 	left: 4px;
 	position: absolute;
-	transition: 400ms;
+	transition: all 400ms;
 	width: 26px;
 }
 
 input:checked + .theme-slider {
-	background-color: hsl(152, 80%, 35%);
+	// background-color: hsl(152, 80%, 35%);
 }
 
 input:checked + .theme-slider:before {
-	transform: translateX(26px);
-	bottom: 2px;
+	// transform: translateX(26px);
+	// bottom: 2px;
 	content: "🌙";
 }
 

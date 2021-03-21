@@ -37,6 +37,7 @@ section.cta {
 
 		@include breakpoint("small") {
 			font-size: var(--text-lg);
+			text-align: center;
 		}
 	}
 
@@ -53,6 +54,10 @@ section.cta {
 			line-height: 1.5;
 			width: 100%;
 			margin-bottom: var(--space-xl);
+		}
+
+		@include breakpoint("small") {
+			text-align: center;
 		}
 	}
 }
