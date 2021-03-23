@@ -2,11 +2,11 @@
   "name": "Tribe Lead Page Starter",
   "siteDesc": "Tribe Lead Page Starter",
   "url": "./",
-  "metaImg": "./img/",
+  "metaImg": "./image/metaImg.png",
   "authorEmail": "matt@tribeft.com.au",
   "authorHandle": "@nah",
   "authorName": "Matt Skeoch",
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 5,
-  "faviconPath": "./img/favicon.ico"
+  "faviconPath": "./image/favicon.ico"
 }
