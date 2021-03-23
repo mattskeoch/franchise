@@ -12,7 +12,7 @@ section.faq::before {
 	left: 0px;
 
 	@include breakpoint("medium") {
-		opacity: 0.2;
+		opacity: 0.5;
 	}
 }
 
