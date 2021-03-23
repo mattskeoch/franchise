@@ -69,6 +69,7 @@ section.cta {
 		height: 401px;
 		border-top-left-radius: 10px;
 		border-bottom-right-radius: 10px;
+		transform: translateY(1px);
 
 		@include breakpoint("large") {
 			width: 100%;

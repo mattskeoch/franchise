@@ -88,8 +88,8 @@ section.features {
 }
 
 ul.features-grid {
-	--min: 25ch;
-	--gap: 3rem;
+	--min: 35ch;
+	--gap: 1rem;
 
 	display: grid;
 	grid-gap: var(--gap);

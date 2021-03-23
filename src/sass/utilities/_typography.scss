@@ -59,3 +59,13 @@ p {
 	font-family: var(--font-secondary);
 	font-weight: 400;
 }
+
+a {
+	font-weight: 600;
+	color: var(--clr-green-300);
+	text-decoration: inherit;
+
+	&:hover {
+		color: var(--clr-green-400);
+	}
+}
